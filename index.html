@@ -17,8 +17,14 @@
   </head>
   <body>
     <script type="module">
+      import { TextField, render } from "@suid/material";
+      // Works
+      render(TextField, document.getElementById("root"));
+    </script>
+    <script type="module">
       import { render } from "solid-js/web";
       import { TextField } from "@suid/material";
+      // Fails
       render(TextField, document.getElementById("root"));
     </script>
     <div id="root"></div>

@@ -26350,9 +26350,6 @@ function render$1(code, element, init, options = {}) {
   };
 }
 
-// Works
-render$1(TextField, document.body);
-
 export {
   Alert,
   AlertTitle,
@@ -26462,4 +26459,5 @@ export {
   useMediaQuery,
   useTheme$1 as useTheme,
   useThemeProps,
+  render$1 as render
 };
