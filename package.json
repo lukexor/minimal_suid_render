@@ -1,0 +1,11 @@
+{
+  "name": "minimal_suid_render",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx serve -C ."
+  },
+  "dependencies": {
+    "solid-js": "^1.8.6"
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal SUID Render</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "solid-js": "https://esm.sh/solid-js@1.7.12?dev",
+          "solid-js/web": "https://esm.sh/solid-js@1.7.12/web?dev",
+          "solid-js/html": "https://esm.sh/solid-js@1.7.12/html?dev",
+          "@suid/material": "http://localhost:3000/material.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script type="module">
+      import { render } from "solid-js/web";
+      import { TextField } from "@suid/material";
+      render(TextField, document.getElementById("root"));
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
