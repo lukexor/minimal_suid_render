@@ -6,6 +6,6 @@
     "start": "npx serve -C ."
   },
   "dependencies": {
-    "solid-js": "^1.8.6"
+    "solid-js": "^1.9.4"
   }
 }
